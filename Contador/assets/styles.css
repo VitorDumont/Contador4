@@ -1,0 +1,42 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color:rgb(215, 250, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#cont{
+    background-color: rgb(155, 154, 154);
+    padding: 20px;
+    text-align: center;
+    border: 7px solid goldenrod;
+   
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid goldenrod;
+    background-color: rgb(202, 233, 119);
+    color: goldenrod;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
